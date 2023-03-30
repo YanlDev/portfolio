@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/e1238f483a.js" crossorigin="anonymous"></script>
+  <title>YanlDev</title>
+</head>
+<body>
+  <header>
+    <nav>
+
+      <div class="name-header">
+        <p class="logo">&lt;<span class="maquina-escribir">YanL-Dev/&gt;.</span></p>
+      </div>
+      
+      <ul>
+        <li class="menu-item"><a href="#">Home</a></li>
+        <li class="menu-item"><a href="#">About</a></li>
+        <li class="menu-item"><a href="#">Projects</a></li>
+        <li class="menu-item"><a href="#">Contact</a></li>
+      </ul>
+      <div class="burger-menu" id="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="menu-mobile" id="menuMobile">
+        <div class="name-header">
+          <p class="logo">&lt;<span class="maquina-escribir">YanLDev/&gt;   .</span></p>
+        </div>
+        <span class="menu-item"><a href="#">Home</a></span>
+        <span class="menu-item"><a href="#">About</a><qu/span>
+        <span class="menu-item"><a href="#">Projects</a></span>
+        <span class="menu-item"><a href="#">Contact</a></span>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="welcome-section" class="welcome-section">
+      <div class="welcome-paragraph">
+        <h1>Hi, I'm Yaniv Carreon</h1>
+        <p class="title">a front-end web developer</p>
+        <div class="calltoaction">
+          <a href="#">Contact me</a>
+        </div>
+      </div>
+      <figure class="welcome-figure">
+        <img src="img/1680122939862.webp" alt="">
+      </figure>
+    </section>
+    <section id="about" class="about">
+      <div class="aboutme">
+        <h2 class="about-title">About Me</h2>
+        <p class="about-paragraph">I am passionate about technology. I learned to program with Python while studying industrial engineering, currently I work as an industrial engineer and web developer in Peru.</p>
+        <p class="about-paragraph">I am a person with excellent communication skills, creative, organized, and positive-minded. I enjoy tackling new challenges, problem-solving, and I highly value teamwork.</p>
+        
+
+      </div>
+      <div class="mystack"></div>
+    </section>
+    <section id="projects">
+
+    </section>
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    const burger = document.getElementById('hamburger');
+    const menuMobile = document.getElementById('menuMobile');
+
+    burger.addEventListener('click', ()=>{
+      menuMobile.classList.toggle('open');
+    });
+    
+  </script>
+</body>
+</html>
